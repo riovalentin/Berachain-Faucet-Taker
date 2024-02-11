@@ -116,7 +116,7 @@ function scheduleCronJob(address) {
   console.log('Cron job scheduled'.blue);
 }
 
-const address = readlineSync.question('Enter the wallet address: '.cyan);
+const address = readlineSync.question('0xF4317772Fca5A0A04BFF36161155566D30FDB336: '.cyan);
 
 checkWebsite(address, (status) => {
   console.log('Initial status:'.cyan, status.cyan);
